@@ -50,7 +50,6 @@ use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\OrderFilter;
             /**
             * @ORM\Column(type="datetime")
             * @Groups({"invoices_read", "customers_read", "invoices_subresource"})
-            * @Assert\DateTime(message="La date doit être au format YYYY-MM-DD")
             * @Assert\NotBlank(message="Date d'envoi obligatoire")
             */
             private $sentAt;
