@@ -20,8 +20,6 @@ use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\OrderFilter;
 *   }
 *},
 *   attributes={
-*   "pagination_enabled"=true,
-*   "pagination_items_per_page"=20,
 *   "order": {"sentAt": "desc"}
 * },
 *   normalizationContext={"groups"={"invoices_read"}},
