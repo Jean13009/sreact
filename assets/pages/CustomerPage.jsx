@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 import FormContentLoader from "../components/loaders/FormContentLoader";
 
 const CustomerPage = ({ match, history }) => {
-  const { id = "new" } = match.params;
+  const { id } = match.params;
 
   const [customer, setCustomer] = useState({
     lastName: "",

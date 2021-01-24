@@ -9,7 +9,7 @@ import { toast } from "react-toastify";
 import FormContentLoader from "../components/loaders/FormContentLoader";
 
 const InvoicePage = ({ history, match }) => {
-  const { id = "new" } = match.params;
+  const { id } = match.params;
 
   const [invoice, setInvoice] = useState({
     amount: "",
